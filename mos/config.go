@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"cesanta.com/clubby"
-	fwconfig "cesanta.com/fw/defs/config"
-	"cesanta.com/mos/dev"
 	"github.com/cesanta/errors"
+	fwconfig "github.com/cesanta/fw/defs/config"
+	"github.com/cesanta/mongoose-os/clubby"
+	"github.com/cesanta/mos/dev"
 	flag "github.com/spf13/pflag"
 )
 

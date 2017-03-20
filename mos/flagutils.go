@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"cesanta.com/common/go/multierror"
+	"github.com/cesanta/common/go/multierror"
 
 	"github.com/cesanta/errors"
 	flag "github.com/spf13/pflag"

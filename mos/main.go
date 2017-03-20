@@ -14,10 +14,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"cesanta.com/common/go/pflagenv"
-	"cesanta.com/mos/build"
-	"cesanta.com/mos/dev"
+	"github.com/cesanta/common/go/pflagenv"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mos/build"
+	"github.com/cesanta/mos/dev"
 	"github.com/golang/glog"
 	flag "github.com/spf13/pflag"
 )

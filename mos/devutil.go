@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"cesanta.com/mos/dev"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mos/dev"
 )
 
 var (

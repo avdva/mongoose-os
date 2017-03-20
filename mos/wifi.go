@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"cesanta.com/mos/dev"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mos/dev"
 	flag "github.com/spf13/pflag"
 )
 

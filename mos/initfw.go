@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"cesanta.com/mos/build"
-	"cesanta.com/mos/build/archive"
-	"cesanta.com/mos/dev"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mos/build"
+	"github.com/cesanta/mos/build/archive"
+	"github.com/cesanta/mos/dev"
 	yaml "gopkg.in/yaml.v2"
 )
 

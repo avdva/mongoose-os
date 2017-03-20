@@ -6,9 +6,9 @@ import (
 	"context"
 	"io/ioutil"
 
-	"cesanta.com/mos/dev"
-	"cesanta.com/mos/flash/esp"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mos/dev"
+	"github.com/cesanta/mos/flash/esp"
 	flag "github.com/spf13/pflag"
 )
 

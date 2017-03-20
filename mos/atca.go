@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	atcaService "cesanta.com/fw/defs/atca"
-	"cesanta.com/mos/atca"
-	"cesanta.com/mos/dev"
 	"github.com/cesanta/errors"
+	atcaService "github.com/cesanta/fw/defs/atca"
+	"github.com/cesanta/mos/atca"
+	"github.com/cesanta/mos/dev"
 	flag "github.com/spf13/pflag"
 	yaml "gopkg.in/yaml.v2"
 )

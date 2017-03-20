@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"cesanta.com/mos/dev"
-	"cesanta.com/mos/flash/cc3200"
-	"cesanta.com/mos/flash/common"
-	"cesanta.com/mos/flash/esp"
-	"cesanta.com/mos/flash/stm32"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mos/dev"
+	"github.com/cesanta/mos/flash/cc3200"
+	"github.com/cesanta/mos/flash/common"
+	"github.com/cesanta/mos/flash/esp"
+	"github.com/cesanta/mos/flash/stm32"
 	flag "github.com/spf13/pflag"
 )
 
