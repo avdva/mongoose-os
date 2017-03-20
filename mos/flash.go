@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/cesanta/errors"
-	"github.com/cesanta/mos/dev"
-	"github.com/cesanta/mos/flash/cc3200"
-	"github.com/cesanta/mos/flash/common"
-	"github.com/cesanta/mos/flash/esp"
-	"github.com/cesanta/mos/flash/stm32"
+	"github.com/cesanta/mongoose-os/mos/dev"
+	"github.com/cesanta/mongoose-os/mos/flash/cc3200"
+	"github.com/cesanta/mongoose-os/mos/flash/common"
+	"github.com/cesanta/mongoose-os/mos/flash/esp"
+	"github.com/cesanta/mongoose-os/mos/flash/stm32"
 	flag "github.com/spf13/pflag"
 )
 

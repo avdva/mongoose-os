@@ -7,9 +7,9 @@ import (
 	"io"
 	"reflect"
 
-	"cesanta.com/common/go/limitedwriter"
 	"github.com/cesanta/errors"
-	"github.com/cesanta/ubjson"
+	"github.com/cesanta/mongoose-os/common/go/limitedwriter"
+	"github.com/cesanta/mongoose-os/ubjson"
 )
 
 // RawMessage must be a slice in order for `omitempty` flag to work properly.
