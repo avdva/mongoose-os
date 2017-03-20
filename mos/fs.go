@@ -9,10 +9,10 @@ import (
 	"path"
 	"time"
 
+	"github.com/cesanta/clubby"
 	"github.com/cesanta/errors"
-	fwfilesystem "github.com/cesanta/fw/defs/fs"
-	"github.com/cesanta/mongoose-os/clubby"
-	"github.com/cesanta/mos/dev"
+	fwfilesystem "github.com/cesanta/mongoose-os/fw/defs/fs"
+	"github.com/cesanta/mongoose-os/mos/dev"
 	"github.com/golang/glog"
 	flag "github.com/spf13/pflag"
 )

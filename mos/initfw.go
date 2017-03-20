@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 
 	"github.com/cesanta/errors"
-	"github.com/cesanta/mos/build"
-	"github.com/cesanta/mos/build/archive"
-	"github.com/cesanta/mos/dev"
+	"github.com/cesanta/mongoose-os/mos/build"
+	"github.com/cesanta/mongoose-os/mos/build/archive"
+	"github.com/cesanta/mongoose-os/mos/dev"
 	yaml "gopkg.in/yaml.v2"
 )
 

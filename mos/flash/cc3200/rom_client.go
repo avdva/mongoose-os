@@ -7,9 +7,9 @@ import (
 	"io"
 	"time"
 
-	"cesanta.com/mos/flash/common"
 	"github.com/cesanta/errors"
 	"github.com/cesanta/go-serial/serial"
+	"github.com/cesanta/mongoose-os/mos/flash/common"
 	"github.com/golang/glog"
 )
 

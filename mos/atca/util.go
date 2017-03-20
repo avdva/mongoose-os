@@ -11,9 +11,9 @@ import (
 	"regexp"
 	"strings"
 
-	atcaService "cesanta.com/fw/defs/atca"
-	"cesanta.com/mos/dev"
 	"github.com/cesanta/errors"
+	atcaService "github.com/cesanta/mongoose-os/fw/defs/atca"
+	"github.com/cesanta/mongoose-os/mos/dev"
 )
 
 const (

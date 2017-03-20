@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/cesanta/mos/dev"
-	"github.com/cesanta/mos/timestamp"
+	"github.com/cesanta/mongoose-os/mos/dev"
+	"github.com/cesanta/mongoose-os/mos/timestamp"
 
 	"github.com/cesanta/errors"
 	"github.com/cesanta/go-serial/serial"

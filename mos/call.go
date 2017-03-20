@@ -7,7 +7,7 @@ import (
 
 	"github.com/cesanta/mongoose-os/common/go/mgrpc/frame"
 	"github.com/cesanta/mongoose-os/common/go/ourjson"
-	"github.com/cesanta/mos/dev"
+	"github.com/cesanta/mongoose-os/mos/dev"
 
 	"github.com/cesanta/errors"
 	flag "github.com/spf13/pflag"

@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"time"
 
-	"cesanta.com/common/go/mgrpc/frame"
+	"github.com/cesanta/mongoose-os/common/go/mgrpc/frame"
 
 	"github.com/cesanta/errors"
 	mqtt "github.com/eclipse/paho.mqtt.golang"

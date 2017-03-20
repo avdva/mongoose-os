@@ -5,12 +5,12 @@ import (
 	"crypto/tls"
 	"time"
 
-	"cesanta.com/common/go/mgrpc"
-	"cesanta.com/common/go/ourjson"
-	fwconfig "cesanta.com/fw/defs/config"
-	fwfilesystem "cesanta.com/fw/defs/fs"
-	fwsys "cesanta.com/fw/defs/sys"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mongoose-os/common/go/mgrpc"
+	"github.com/cesanta/mongoose-os/common/go/ourjson"
+	fwconfig "github.com/cesanta/mongoose-os/fw/defs/config"
+	fwfilesystem "github.com/cesanta/mongoose-os/fw/defs/fs"
+	fwsys "github.com/cesanta/mongoose-os/fw/defs/sys"
 	"github.com/golang/glog"
 )
 

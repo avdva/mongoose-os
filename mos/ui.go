@@ -21,7 +21,7 @@ import (
 	yaml "gopkg.in/yaml.v2"
 
 	"github.com/cesanta/errors"
-	"github.com/cesanta/mos/dev"
+	"github.com/cesanta/mongoose-os/mos/dev"
 	"github.com/elazarl/go-bindata-assetfs"
 	"github.com/golang/glog"
 	"github.com/skratchdot/open-golang/open"

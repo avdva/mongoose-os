@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/cesanta/errors"
-	"github.com/cesanta/mos/dev"
+	"github.com/cesanta/mongoose-os/mos/dev"
 )
 
 var (

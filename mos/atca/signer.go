@@ -13,9 +13,9 @@ import (
 	"math/big"
 	"os"
 
-	"cesanta.com/clubby"
-	atcaService "cesanta.com/fw/defs/atca"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mongoose-os/clubby"
+	atcaService "github.com/cesanta/mongoose-os/fw/defs/atca"
 )
 
 // Implements crypto.Signer interface using ATCA.

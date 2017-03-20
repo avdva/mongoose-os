@@ -13,7 +13,7 @@ import (
 	"github.com/cesanta/errors"
 	"github.com/golang/glog"
 
-	"cesanta.com/mos/build/gitutils"
+	"github.com/cesanta/mongoose-os/mos/build/gitutils"
 )
 
 type SWModule struct {

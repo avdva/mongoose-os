@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"cesanta.com/common/go/mgrpc/frame"
+	"github.com/cesanta/mongoose-os/common/go/mgrpc/frame"
 
 	"github.com/cesanta/errors"
 	"github.com/golang/glog"

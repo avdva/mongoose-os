@@ -3,8 +3,8 @@
 all: generate
 
 generate version.go version.json:
-	@go install cesanta.com/vendor/github.com/jteeuwen/go-bindata/go-bindata
-	@go install cesanta.com/vendor/github.com/elazarl/go-bindata-assetfs/go-bindata-assetfs
+	@go install github.com/jteeuwen/go-bindata/go-bindata
+	@go install github.com/elazarl/go-bindata-assetfs/go-bindata-assetfs
 	@go generate
 	@cat version.json
 	@echo

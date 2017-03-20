@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/cesanta/errors"
-	"github.com/cesanta/mos/dev"
+	"github.com/cesanta/mongoose-os/mos/dev"
 	flag "github.com/spf13/pflag"
 )
 

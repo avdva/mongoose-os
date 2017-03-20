@@ -8,8 +8,8 @@ import (
 	"io"
 	"sync"
 
-	"cesanta.com/common/go/mgrpc/frame"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mongoose-os/common/go/mgrpc/frame"
 	"github.com/golang/glog"
 )
 

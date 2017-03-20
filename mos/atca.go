@@ -13,9 +13,9 @@ import (
 	"strings"
 
 	"github.com/cesanta/errors"
-	atcaService "github.com/cesanta/fw/defs/atca"
-	"github.com/cesanta/mos/atca"
-	"github.com/cesanta/mos/dev"
+	atcaService "github.com/cesanta/mongoose-os/fw/defs/atca"
+	"github.com/cesanta/mongoose-os/mos/atca"
+	"github.com/cesanta/mongoose-os/mos/dev"
 	flag "github.com/spf13/pflag"
 	yaml "gopkg.in/yaml.v2"
 )

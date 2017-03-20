@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	"cesanta.com/common/go/mgrpc/codec"
-	"cesanta.com/common/go/mgrpc/frame"
 	"github.com/cesanta/errors"
+	"github.com/cesanta/mongoose-os/common/go/mgrpc/codec"
+	"github.com/cesanta/mongoose-os/common/go/mgrpc/frame"
 	"github.com/golang/glog"
 )
 
