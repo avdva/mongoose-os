@@ -1,3 +1,4 @@
+// +build linux,darwin
 package main
 
 import (
@@ -5,10 +6,12 @@ import (
 
 	"github.com/miketheprogrammer/go-thrust/lib/bindings/window"
 	cmds "github.com/miketheprogrammer/go-thrust/lib/commands"
+	"github.com/miketheprogrammer/go-thrust/lib/spawn"
 	"github.com/miketheprogrammer/go-thrust/thrust"
 )
 
 func showUI(url string) {
+	spawn.SetBaseDirectory("./")
 	thrust.InitLogger()
 	thrust.Start()
 	thrustWindow := thrust.NewWindow(thrust.WindowOptions{
@@ -27,4 +30,5 @@ func showUI(url string) {
 		log.Fatal(err)
 	}
 	<-stopCh
+	thrust.Exit()
 }

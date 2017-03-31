@@ -1,11 +1,6 @@
+// +build darwin
+
 package main
-
-import (
-	"log"
-	"os"
-
-	"github.com/alexflint/gallium"
-)
 
 /*
 #cgo CFLAGS: -x objective-c
@@ -49,6 +44,7 @@ void setTerminateAfterLastWindowClosed() {
 */
 import "C"
 
+/*
 func showUI(url string) {
 	err := gallium.Loop(os.Args, func(app *gallium.App) {
 		opts := gallium.FramedWindow
@@ -80,4 +76,4 @@ func showUI(url string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-}
+}*/
